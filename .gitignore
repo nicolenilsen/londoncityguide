@@ -1,0 +1,30 @@
+# Composer dependencies
+/vendor/
+
+# Drupal core (installed by Composer)
+/web/core/
+
+# Uploaded files
+/web/sites/*/files
+
+# Private files
+/web/sites/*/private
+
+# Local settings (may contain secrets)
+/web/sites/*/settings.local.php
+/web/sites/*/services.local.yml
+
+# Node dependencies
+/node_modules/
+
+# Logs and temp files
+/tmp
+/logs
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
